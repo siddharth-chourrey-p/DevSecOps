@@ -1,0 +1,24 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Terraform =====
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# ===== Secrets =====
+.env
+*.pem
+*.key
+*.tfvars
+
+# ===== Logs =====
+*.log
+
